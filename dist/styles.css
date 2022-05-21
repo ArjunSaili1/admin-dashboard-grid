@@ -1,3 +1,28 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
 
+.content-container {
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  grid-template-rows: 1fr 4fr;
+  background-color: green;
+}
+
+.sidebar {
+  grid-column: 1/1;
+  grid-row: 1/-1;
+  background-color: red;
+}
+
+.header {
+  grid-column: 2/-1;
+  grid-row: 1/1;
+  background-color: purple;
+}
 
 /*# sourceMappingURL=styles.css.map */
